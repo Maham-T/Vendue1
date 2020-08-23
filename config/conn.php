@@ -20,15 +20,25 @@ if($app_mode === "live"){
 	/*$DBUSER	= 'dost_dbuser';
 	$DBPASS	= 'dba@786';
 	$DBNAME = 'dost_db';  */ 
-}else{
-	
+}//else{
+
+	//Base Folder
+	//$SPATH = $_SERVER['DOCUMENT_ROOT']."/vendue/";
+	//Database
+	//$DBHOST = 'localhost'; 
+	//$DBUSER	= 'root';
+	//$DBPASS	= '';
+	//$DBNAME = 'vendue';
+//} 
+else{
+
 	//Base Folder
 	$SPATH = $_SERVER['DOCUMENT_ROOT']."/vendue/";
 	//Database
-	$DBHOST = 'localhost'; 
-	$DBUSER	= 'root';
-	$DBPASS	= '';
-	$DBNAME = 'vendue';
+	$DBHOST = 'remotemysql.com'; 
+	$DBUSER	= '4ap4MMhX4o';
+	$DBPASS	= 'nDRYZ4DG2s';
+	$DBNAME = '4ap4MMhX4o';
 } 
 define("SPATH",$SPATH);
 
