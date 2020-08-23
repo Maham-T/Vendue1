@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+ 
+table { font-size: 14px !important; }
+
+@media print{
+  body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+}
+/* CSS Document */
+/*.required_field{
+	 border-left: solid 2px red !important;
+}*/
+ 
+input[required]:invalid {
+     border-left: solid 2px red !important;
+}
+
+input[required]:valid {
+    border-left: solid 2px green !important;
+}
+
+select[required]:invalid {
+    border-left: solid 2px red !important;
+}
+
+select[required]:valid {
+    border-left: solid 2px green !important;
+}
+
+textarea[required]:invalid {
+   border-left: solid 2px red !important;
+}
+
+textarea[required]:valid {
+     border-left: solid 2px green !important;
+}
+
+h3 {
+    font-size: 18px !important;
+}
+
+.no_margin{ margin-bottom: 0px;}
+
+.page-content-white .page-title {
+    margin: 15px 0 !important;
+    font-size: 22px !important;
+}
+ 
+.form-section { margin: 10px  0 !important; }
+
+.content-header {
+    padding: 15px .5rem  0px .5rem  !important; 
+}
+.padding10px{ padding: 10px; }
+
+.route {
+    float: right;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 4px;
+    margin-top: 5px !important;
+    width: auto !important;
+}
+.vatfooter { 
+  width: 100%; 
+  text-align: center;
+ font-size: .9rem !important; 
+}
+.invoice {   font-family:  Arial;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  color: #000000 !important; }
+
+  .invoice table {   
+  font-size: 13px !important; }
+
+  .user-block .comment, .user-block .description, .user-block .username {
+    display: block;
+     margin-left: 0px !important;
+}

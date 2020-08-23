@@ -1,0 +1,26 @@
+  body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+  #ad{ display:none;}
+  #leftbar{ display:none;}
+  #contentarea{ width:100%;}
+  
+div { font-family: arial; font-size: 18px !important;  }
+div strong { font-size: 15px !important;  }
+h1 { font-size: 20px !important; padding: 0px  !important; margin: 0px 0px 5px 0px  !important; } 
+h3 { font-size: 197px  !important; font-weight: bold ; padding: 0px  !important; margin: 0px 0px 5px 0px  !important;} 
+h5, p { font-size: 18px !important; padding: 0px !important; margin: 0px !important;} 
+table { font-size: 18px !important; padding: 0px !important; margin: 0px !important;} 
+table th, td { padding: 2px  !important;} 
+.buttonbuffer{ margin-bottom: 10px !important; }
+hr{ margin-bottom: 8px ; margin-top: 8px; }
+table  td .help-block {  font-size: 10px; margin: 0px; padding: 0px;  } 
+.route{ float: right; font-weight: bold; color: red; border: 2px solid red; padding: 4px; margin-top: 5px !important; width: auto !important;   }
+
+ 
+.vatfooter {
+  position: fixed !important; ;
+  width: 100% !important; ;
+  bottom: 0 !important; ;
+  text-align: center !important; ;
+}
+ 
+ .pdfTable{  border-collapse: collapse !important;  }
