@@ -53,7 +53,7 @@ define('DBUSER', $DBUSER);
 define('DBPASS', $DBPASS);
 define('DBNAME', $DBNAME); 
 
-require_once(SPATH.'adodb/adodb.inc.php');
+//require_once(SPATH.'adodb/adodb.inc.php');
 ### CONNECTING -- STARTS ###
 $db = ADONewConnection('mysqli');
 //$db->debug = true;
